@@ -1,0 +1,76 @@
+{
+  "jobs": [
+    {
+      "companyName": "Reputation",
+      "role": "Senior Frontend Software Engineer",
+      "location": "San Francisco, CA",
+      "startDate": "November 2021",
+      "endDate": "October 2022",
+      "accomplishments": [
+        "Led React development of new features to the Social platform, increasing customer reach to their respective users",
+        "Worked cross-functionally with Product, Management and QA teams to ship robust features quickly and effectively",
+        "Created integrations with various Social platforms (TikTok, Twitter, Google Business Profile, Instagram/Facebook, LinkedIn)",
+        "Refactored underlying Front-End infrastructure, making Front-End development easier and quicker"
+      ]
+    },
+    {
+      "companyName": "Dolby.io",
+      "role": "Full Stack Software Engineer",
+      "location": "San Francisco, CA",
+      "startDate": "August 2020",
+      "endDate": "October 2021",
+      "accomplishments": [
+        "Built new functionality and webpages using React, Redux, CSS-in-JSS (styled-components)",
+        "Refactored existing pages to be mobile-friendly and responsive",
+        "Created a new microservice to handle 3rd party integrations with our APIs"
+      ]
+    },
+    {
+      "companyName": "STRATIM",
+      "role": "Full Stack Software Engineer",
+      "location": "San Francisco, CA",
+      "startDate": "January 2019",
+      "endDate": "March 2020",
+      "accomplishments": [
+        "Created new and optimized existing Java REST endpoints for STRATIM's mobile application",
+        "Built new features for STRATIM's iOS application, almost doubling its user base",
+        "Investigated, implemented, and lead STRATIM's migration from Vue.js and iOS native to React.js & React Native",
+        "Automated the iOS release/deployment process with fastlane"
+      ]
+    },
+    {
+      "companyName": "Gliffy Inc.",
+      "role": "Full Stack Software Engineer",
+      "location": "San Francisco, CA",
+      "startDate": "July 2017",
+      "endDate": "January 2019",
+      "accomplishments": [
+        "Partnered with UX/design to create new Ember.js webpages for the Gliffy web app",
+        "Created a suite of Node.js microservices, allowing for better scalability and increasing engineering efficiency and output"
+      ]
+    }
+  ],
+  "sideProjects": [
+    {
+      "projectName": "Personal Website",
+      "url": "https://jonathanpe.com",
+      "description": "Personal Website created to practice various skills and display my interests",
+      "notableTechUsed": ["React", "tailwind CSS", "animejs"]
+    },
+    {
+      "projectName": "It's 5 O'Clock Somewhere",
+      "url": "https://its5oclocksomewhere.club",
+      "description": "App that shows where in the world it's 5:00pm and suggests a beverage to consume based on location",
+      "notableTechUsed": ["React", "styled-components", "MaterialUI"]
+    }
+  ],
+  "skills": [],
+  "education": [
+    {
+      "institutionName": "California Polytechnic State University: San Luis Obispo, CA",
+      "certificationReceived": "B.S. Computer Science",
+      "startDate": "September 2013",
+      "endDate": "June 2017"
+    }
+  ]
+}

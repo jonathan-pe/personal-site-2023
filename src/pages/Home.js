@@ -1,11 +1,11 @@
-import "./Home.css";
+import "./Home.css"
 
-import anime from "animejs";
-import { useEffect } from "react";
-import { Code, GameController, MusicNotes } from "phosphor-react";
-import { Link } from "react-router-dom";
+import anime from "animejs"
+import { useEffect } from "react"
+import { Code, GameController, MusicNotes } from "phosphor-react"
+import { Link } from "react-router-dom"
 
-import mePhoto from "../images/me.jpg";
+import mePhoto from "../images/me.jpg"
 
 const Home = () => {
   //handle card animations
@@ -13,12 +13,12 @@ const Home = () => {
     const topRowTimeLine = anime.timeline({
       easing: "easeOutExpo",
       duration: 600,
-    });
+    })
 
     const botRowTimeLine = anime.timeline({
       easing: "easeOutExpo",
       duration: 400,
-    });
+    })
 
     topRowTimeLine
       .add({
@@ -30,7 +30,7 @@ const Home = () => {
         targets: "#infoCard",
         translateX: [-250, 0],
         opacity: [0, 1],
-      });
+      })
 
     botRowTimeLine
       .add({
@@ -47,20 +47,20 @@ const Home = () => {
         targets: "#musicCard",
         translateX: [250, 0],
         opacity: [0, 1],
-      });
-  }, []);
+      })
+  }, [])
 
   // handles card gloss on mousemove
   const handleOnMouseMove = (e) => {
-    const { currentTarget: target } = e;
+    const { currentTarget: target } = e
 
     const rect = target.getBoundingClientRect(),
       x = e.clientX - rect.left,
-      y = e.clientY - rect.top;
+      y = e.clientY - rect.top
 
-    target.style.setProperty("--mouse-x", `${x}px`);
-    target.style.setProperty("--mouse-y", `${y}px`);
-  };
+    target.style.setProperty("--mouse-x", `${x}px`)
+    target.style.setProperty("--mouse-y", `${y}px`)
+  }
 
   return (
     <div className="flex justify-center items-center min-h-screen w-full">
@@ -96,17 +96,17 @@ const Home = () => {
         <Link
           id="engineeringCard"
           to="/engineering"
-          className="card h-72 border border-neutral-800 bg-stone-900 rounded-lg flex justify-center items-center relative cursor-pointer"
+          className="card h-72 border border-neutral-800 bg-stone-900 hover:text-emerald-500 transition-all rounded-lg flex justify-center items-center relative cursor-pointer"
           onMouseMove={handleOnMouseMove}
         >
           <div className="card-content w-[calc(100%-2px)] h-[calc(100%-2px)] bg-stone-900 z-[2] rounded-[inherit] relative flex flex-col justify-center items-center">
-            <Code size={64} />
+            <Code className="" size={64} />
           </div>
         </Link>
         <Link
           id="gamingCard"
           to="/gaming"
-          className="card h-72 border border-neutral-800 bg-stone-900 rounded-lg flex justify-center items-center relative cursor-pointer"
+          className="card h-72 border border-neutral-800 bg-stone-900 hover:text-emerald-500 transition-all rounded-lg flex justify-center items-center relative cursor-pointer"
           onMouseMove={handleOnMouseMove}
         >
           <div className="card-content w-[calc(100%-2px)] h-[calc(100%-2px)] bg-stone-900 z-[2] rounded-[inherit] relative flex flex-col justify-center items-center">
@@ -116,7 +116,7 @@ const Home = () => {
         <Link
           id="musicCard"
           to="/music"
-          className="card h-72 border border-neutral-800 bg-stone-900 rounded-lg flex justify-center items-center relative cursor-pointer"
+          className="card h-72 border border-neutral-800 bg-stone-900 hover:text-emerald-500 transition-all rounded-lg flex justify-center items-center relative cursor-pointer"
           onMouseMove={handleOnMouseMove}
         >
           <div className="card-content w-[calc(100%-2px)] h-[calc(100%-2px)] bg-stone-900 z-[2] rounded-[inherit] relative flex flex-col justify-center items-center">
@@ -125,7 +125,7 @@ const Home = () => {
         </Link>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
