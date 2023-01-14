@@ -2,7 +2,7 @@
 .card::before,
 .card::after {
   border-radius: inherit;
-  content: "";
+  content: '';
   height: 100%;
   left: 0px;
   position: absolute;

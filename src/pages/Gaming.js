@@ -2,4 +2,4 @@ const Gaming = () => {
   return <div>Gaming</div>
 }
 
-export default Gaming;
+export default Gaming

@@ -1,17 +1,17 @@
-import React from "react";
-import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import React from 'react'
+import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
 
-import "./App.css";
+import './App.css'
 
-import { Home, Engineering, Gaming, Music, Layout } from "./pages";
+import { Home, Engineering, Gaming, Music, Layout } from './pages'
 
 let router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Layout />,
     children: [
       {
-        path: "",
+        path: '',
         element: <Outlet />,
         // errorElement: <RootErrorBoundary />,
         children: [
@@ -20,25 +20,25 @@ let router = createBrowserRouter([
             element: <Home />,
           },
           {
-            path: "engineering",
+            path: 'engineering',
             element: <Engineering />,
           },
           {
-            path: "gaming",
+            path: 'gaming',
             element: <Gaming />,
           },
           {
-            path: "music",
+            path: 'music',
             element: <Music />,
           },
         ],
       },
     ],
   },
-]);
+])
 
 const App = () => {
-  return <RouterProvider router={router} /* fallbackElement={<Fallback />} */ />;
-};
+  return <RouterProvider router={router} /* fallbackElement={<Fallback />} */ />
+}
 
-export default App;
+export default App
