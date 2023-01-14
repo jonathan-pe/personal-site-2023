@@ -1,6 +1,7 @@
 {
   "jobs": [
     {
+      "id": "reputation",
       "companyName": "Reputation",
       "role": "Senior Frontend Software Engineer",
       "startDate": "November 2021",
@@ -13,6 +14,7 @@
       ]
     },
     {
+      "id": "dolbyIO",
       "companyName": "Dolby.io",
       "role": "Full Stack Software Engineer",
       "startDate": "August 2020",
@@ -24,6 +26,7 @@
       ]
     },
     {
+      "id": "STRATIM",
       "companyName": "STRATIM",
       "role": "Full Stack Software Engineer",
       "startDate": "January 2019",
@@ -36,6 +39,7 @@
       ]
     },
     {
+      "id": "gliffy",
       "companyName": "Gliffy Inc.",
       "role": "Full Stack Software Engineer",
       "startDate": "July 2017",
@@ -48,12 +52,14 @@
   ],
   "sideProjects": [
     {
+      "id": "personalWebsite",
       "projectName": "Personal Website",
       "url": "https://jonathanpe.com",
       "description": "Personal Website created to practice various skills and display my interests",
       "notableTechUsed": ["React", "tailwind CSS", "Framer Motion"]
     },
     {
+      "id": "5oclock",
       "projectName": "It's 5 O'Clock Somewhere",
       "url": "https://its5oclocksomewhere.club",
       "description": "App that shows where in the world it's 5:00pm and suggests a beverage to consume based on location",
@@ -63,6 +69,7 @@
   "skills": [],
   "education": [
     {
+      "id": "calpolySLO",
       "institutionName": "California Polytechnic State University: San Luis Obispo, CA",
       "certificationReceived": "B.S. Computer Science",
       "startDate": "September 2013",

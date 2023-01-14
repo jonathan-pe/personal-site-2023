@@ -2,6 +2,7 @@ import React from 'react'
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom'
 
 import './App.css'
+import 'react-tooltip/dist/react-tooltip.css'
 
 import { Home, Engineering, Gaming, Music, Layout } from './pages'
 
