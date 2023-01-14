@@ -51,7 +51,7 @@
       "projectName": "Personal Website",
       "url": "https://jonathanpe.com",
       "description": "Personal Website created to practice various skills and display my interests",
-      "notableTechUsed": ["React", "tailwind CSS", "animejs"]
+      "notableTechUsed": ["React", "tailwind CSS", "Framer Motion"]
     },
     {
       "projectName": "It's 5 O'Clock Somewhere",
