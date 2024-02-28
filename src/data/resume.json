@@ -1,6 +1,17 @@
 {
   "jobs": [
     {
+      "id": "apple-teksystems",
+      "companyName": "Apple (via TEKsystems)",
+      "role": "Senior Frontend Software Engineer",
+      "startDate": "February 2023",
+      "endDate": "February 2024",
+      "accomplishments": [
+        "Led React development of new features to Apple's Special Project Group internal tooling platform",
+        "Worked closely with users to improve internal tooling and engineering efficiency"
+      ]
+    },
+    {
       "id": "reputation",
       "companyName": "Reputation",
       "role": "Senior Frontend Software Engineer",
