@@ -42,7 +42,7 @@ const Music = () => {
 
         <div className='col-span-1'>
           <iframe
-            src='https://clips.twitch.tv/embed?clip=PolishedHeadstrongIcecreamHoneyBadger-Q329m5NCFP4ITXo1&parent=localhost&parent=www.jonathanpe.com&autoplay=true'
+            src='https://clips.twitch.tv/embed?clip=PolishedHeadstrongIcecreamHoneyBadger-Q329m5NCFP4ITXo1&parent=localhost&parent=jonathanpe.com&autoplay=true'
             frameborder='0'
             allowfullscreen='true'
             height='378'

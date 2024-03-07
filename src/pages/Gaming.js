@@ -34,7 +34,7 @@ const Gaming = () => {
 
         <div className='col-span-1'>
           <iframe
-            src='https://player.twitch.tv/?video=1647522389&parent=www.jonathanpe.com&parent=localhost&autoplay=true&muted=false'
+            src='https://player.twitch.tv/?video=1647522389&parent=jonathanpe.com&parent=localhost&autoplay=true&muted=false'
             frameborder='0'
             allowfullscreen='true'
             height='378'
