@@ -1,10 +1,12 @@
 import { useState } from 'react'
-import { Code, GameController, MusicNotes } from 'phosphor-react'
+import { Code, GameController, MusicNotes, LinkedinLogo, TwitchLogo, InstagramLogo } from 'phosphor-react'
 import { Link } from 'react-router-dom'
 import { motion, AnimatePresence, LayoutGroup } from 'framer-motion'
 import handleCardOnMouseMove from '../helpers/handleCardOnMouseMove'
 
 import mePhoto from '../images/me.jpg'
+import LINKS from '../data/links'
+import SoundCloudLogo from '../images/SoundCloudLogo'
 
 const MotionLink = motion(Link)
 
@@ -45,6 +47,31 @@ const Home = () => {
               <div className='flex flex-col justify-center items-start w-full h-full p-10'>
                 <span className='text-6xl font-bold'>Jonathan Pe</span>
                 <span className='font-medium'>always learning.</span>
+
+                <div className='flex gap-1 mt-2'>
+                  <a
+                    href={LINKS.LINKEDIN}
+                    target='_blank'
+                    rel='noreferrer'
+                    className='text-blue-600 hover:text-blue-700'
+                  >
+                    <LinkedinLogo size={32} />
+                  </a>
+                  <a href={LINKS.SOUNDCLOUD} target='_blank' rel='noreferrer'>
+                    <SoundCloudLogo className='fill-orange-500 hover:fill-orange-600' />
+                  </a>
+                  <a
+                    href={LINKS.TWITCH}
+                    target='_blank'
+                    rel='noreferrer'
+                    className='text-purple-600 hover:text-purple-700'
+                  >
+                    <TwitchLogo size={32} />
+                  </a>
+                  <a href={LINKS.INSTAGRAM} target='_blank' rel='noreferrer' className='hover:text-gray-400'>
+                    <InstagramLogo size={32} />
+                  </a>
+                </div>
               </div>
             </div>
           </motion.div>
